@@ -18,6 +18,10 @@
 <a href="https://jbaysolutions.github.io/vue-grid-layout/" target="_blank">Documentation Website</a>
 </h2>
 
+## Important notice
+
+Compatible with VUE3 (3.0.0-3.0.7), but no VUE3 syntax refactoring, usage unchanged. use v-model:layout="layout" Instead of v-model ="layout".
+
 ## What is Vue Grid Layout?
 
 vue-grid-layout is a grid layout system, like [Gridster](http://dsmorse.github.io/gridster.js/), for Vue.js. **Heavily inspired by [React-Grid-Layout](https://github.com/STRML/react-grid-layout)**
@@ -33,7 +37,7 @@ vue-grid-layout is a grid layout system, like [Gridster](http://dsmorse.github.i
 * Automatic RTL support (resizing not working with RTL on 2.2.0)
 * Responsive
 
-## **Current version:** 2.3.12 (Supports Vue 2.2+)
+## **Current version:** 2.3.12 (Supports Vue 3.0.7)
 
 #### **For Vue 2.1.10 and below use version [2.1.3](https://github.com/jbaysolutions/vue-grid-layout/tree/2.1.3)**
 #### **For Vue 1 use version [1.0.3](https://github.com/jbaysolutions/vue-grid-layout/tree/1.0.3)** 
