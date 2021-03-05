@@ -1,0 +1,69 @@
+{
+    "name": "vue-grid-layout",
+    "version": "2.3.12",
+    "scripts": {
+        "build": "rimraf dist && vue-cli-service build",
+        "build-lib": "rimraf dist && vue-cli-service build --target lib ./src/components/index.js",
+        "lint": "vue-cli-service lint",
+        "serve": "vue-cli-service serve"
+    },
+    "_from": "vue-grid-layout@^2.3.11",
+    "_id": "vue-grid-layout@2.3.12",
+    "_inBundle": false,
+    "_integrity": "sha1-tjljV7hqZoBcEXQx18GT0uBm7do=",
+    "_location": "/vue-grid-layout",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "range",
+        "registry": true,
+        "raw": "vue-grid-layout@^2.3.11",
+        "name": "vue-grid-layout",
+        "escapedName": "vue-grid-layout",
+        "rawSpec": "^2.3.11",
+        "saveSpec": null,
+        "fetchSpec": "^2.3.11"
+    },
+    "_requiredBy": [
+        "/"
+    ],
+    "_resolved": "https://registry.npm.taobao.org/vue-grid-layout/download/vue-grid-layout-2.3.12.tgz",
+    "_shasum": "b6396357b86a66805c117431d7c193d2e066edda",
+    "_spec": "vue-grid-layout@^2.3.11",
+    "_where": "F:\\vue3demo\\hsystem",
+    "bundleDependencies": false,
+    "dependencies": {
+        "@interactjs/actions": "^1.10.2",
+        "@interactjs/auto-start": "^1.10.2",
+        "@interactjs/dev-tools": "^1.10.2",
+        "@interactjs/interactjs": "^1.10.2",
+        "@interactjs/modifiers": "^1.10.2",
+        "element-resize-detector": "^1.2.1",
+        "lodash": "^4.17.21"
+    },
+    "deprecated": false,
+    "description": "A draggable and resizable grid layout, as a Vue component.",
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/eslint-config-standard": "^3.0.5",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-transform-flow-comments": "^6.7.0",
+        "eslint": "^7.21.0",
+        "eslint-plugin-flowtype": "^5.3.1",
+        "eslint-plugin-vue": "^7.6.0",
+        "mitt": "^2.1.0",
+        "node-sass": "^4.13.0",
+        "rimraf": "^2.7.1",
+        "sass-loader": "^7.0.1",
+        "vue": "^3.0.0",
+        "webpack-bundle-analyzer": "^3.9.0"
+    },
+    "main": "dist/vue-grid-layout.common.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jbaysolutions/vue-grid-layout.git"
+    },
+    "unpkg": "dist/vue-grid-layout.umd.min.js"
+}
